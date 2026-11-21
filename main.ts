@@ -7,4 +7,4 @@ Beyond them, the field is pale, the hills are pale.
 The sky is a white sheet of its own, and no one brings it in.`;
 
 mkdirSync("/output", { recursive: true });
-writeFileSync("/output/entry.txt", text);
+writeFileSync("/output/entry.txt", text, "utf8");
