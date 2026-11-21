@@ -1,4 +1,3 @@
-# Orchestrated build run
+# Repository note
 
-For this first turn, do not edit files and do not use the network. Read the repo and reply with exactly: READY
-The orchestrator will send the full build instructions in the next user message.
+This is a make.fun program entry. It writes a short relaxation text to `/output/entry.txt`.
