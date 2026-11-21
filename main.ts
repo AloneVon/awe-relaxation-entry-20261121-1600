@@ -1,10 +1,11 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const text = `On the line, four sheets lift and fill with wind.
-My mother pins the last corner and steps back.
-They become sails, then clouds, then nothing.
-Beyond them, the field is pale, the hills are pale.
-The sky is a white sheet of its own, and no one brings it in.`;
+const text = `We lay in the field under my father's coat.
+The grass was warm from the day.
+A star came loose and drew a line through the dark.
+Then another.
+I stopped counting.
+The sky kept turning, quietly, long after I closed my eyes.`;
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", text, "utf8");
